@@ -35,11 +35,11 @@ main .btn-container{
     justify-content: center;
 }
 
-#anchor-btn{
+.anchor-btn{
     position: relative;
     /* padding-left: 3vw; */
     padding-bottom: 15vh;
-    padding-top: 15vh;
+    padding-top: 4vh;
     text-decoration: none;
     font-weight: bold;
     color: white;
@@ -57,8 +57,17 @@ main .btn-container{
 footer{
     align-content: flex-end;
     background-color: #0d030d;
+    bottom: 0;
     color: white;
-    text-align: center;
+    display: flex;
+    position: absolute;
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+}
+
+footer p{
+    padding-top: 2vh;
 }
 
 
